@@ -1,0 +1,69 @@
+<html>
+<script>
+    const results = [
+        "https://www.google.com/finance/quote/LAK-CLP",
+        "https://www.google.com/finance/quote/LAK-COP",
+        "https://www.google.com/finance/quote/LAK-CRC",
+        "https://www.google.com/finance/quote/LAK-ETB",
+        "https://www.google.com/finance/quote/LAK-FJD",
+        "https://www.google.com/finance/quote/LAK-GHS",
+        "https://www.google.com/finance/quote/LAK-GNF",
+        "https://www.google.com/finance/quote/LAK-HTG",
+        "https://www.google.com/finance/quote/LAK-JOD",
+        "https://www.google.com/finance/quote/LAK-KZT",
+        "https://www.google.com/finance/quote/LAK-KES",
+        "https://www.google.com/finance/quote/LAK-KWD",
+        "https://www.google.com/finance/quote/LAK-KGS",
+        "https://www.google.com/finance/quote/LAK-SCR",
+        "https://www.google.com/finance/quote/LRD-PGK",
+        "https://www.google.com/finance/quote/LRD-PYG",
+        "https://www.google.com/finance/quote/LRD-SDG",
+        "https://www.google.com/finance/quote/LRD-SRD",
+        "https://www.google.com/finance/quote/LRD-TWD",
+        "https://www.google.com/finance/quote/LRD-TJS",
+        "https://www.google.com/finance/quote/LRD-TZS",
+        "https://www.google.com/finance/quote/LRD-THB",
+        "https://www.google.com/finance/quote/LRD-TOP",
+    ];
+
+    const handleClick = () => {
+        const element = document.getElementById('value')
+        const data = element.textContent;
+        if (data) {
+            const index = results.findIndex(item => item === data);
+            if (index < results.length) {
+                const nextValue = results[index + 1];
+                element.innerText = nextValue;
+                window.open(nextValue, "_blank");
+            }
+        } else {
+            const nextValue = results[0]
+            element.innerText = nextValue;
+            window.open(nextValue, "_blank");
+        }
+    }
+
+    window.onload = function () {
+        const totalEle = document.getElementById('total');
+        totalEle.innerText = results.length;
+    }
+
+
+</script>
+
+<style>
+    button {
+        width: 500px;
+        height: 200px;
+    }
+</style>
+
+<body>
+    <button onclick="handleClick()">
+        OPEN NEW TAB
+    </button>
+    <p id="value"></p>
+    <p id="total"></p>
+</body>
+
+</html>
