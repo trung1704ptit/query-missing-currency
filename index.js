@@ -75,7 +75,6 @@ const symbolsList = [
   'JOD',
   'KZT',
   'KES',
-  'KPW',
   'KWD',
   'KGS',
   'LAK',
@@ -143,7 +142,7 @@ const symbolsList = [
 const query = async (iso) => {
   try {
     let { data } = await axios.get(
-      `http://38.242.203.248:5000/api/v1/currency/rates?from=${iso}`,
+      `https://currency.apiup.org/api/v1/currency/rates?from=${iso}`,
     );
     if (data) {
       return data.rates;
