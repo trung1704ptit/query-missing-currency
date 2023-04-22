@@ -1,19 +1,19 @@
 export const uniqueSymbols = [
-  "USD",  // window server 1
+  "USD", // window server 1
   "EUR",
   "GBP",
   "CAD",
   "AUD",
   "JPY",
   "INR",
-// ---------------------------
+  // ---------------------------
   "CNY", // done
   "BRL",
   "SGD",
   "RUB",
   "VND",
   "KRW",
-// ------------------------  => done
+  // ------------------------  => done
   "HKD",
   "SEK",
   "CHF",
@@ -21,7 +21,7 @@ export const uniqueSymbols = [
   "AFN",
   "ALL",
   "DZD",
-// -------------------------  => done
+  // -------------------------  => done
   "AOA",
   "XCD",
   "ARS",
@@ -29,7 +29,7 @@ export const uniqueSymbols = [
   "AZN",
   "BSD",
   "BHD",
-// ------------------------ done
+  // ------------------------ done
   "BDT",
   "BBD",
   "BYN",
@@ -37,7 +37,7 @@ export const uniqueSymbols = [
   "XOF",
   "BTN",
   "BOB",
-// --------------------------  done
+  // --------------------------  done
   "BAM",
   "BWP",
   "BND",
@@ -45,14 +45,14 @@ export const uniqueSymbols = [
   "BIF",
   "KHR",
   "CVE",
-// ----------------------------done
+  // ----------------------------done
   "CLP",
   "COP",
   "KMF",
   "CRC",
   "CUP",
   "CZK",
-// ---------------------------done
+  // ---------------------------done
   "CDF",
   "DKK",
   "DJF",
@@ -76,47 +76,46 @@ export const uniqueSymbols = [
   "IDR",
   "IRR",
   "IQD",
-// ---------------------------
+  // ---------------------------
   "ILS", // done
   "JMD",
   "JOD",
   "KZT",
   "KES",
-  "KPW",
   "KWD",
-// ---------------------------
-  "KGS",// done
+  // ---------------------------
+  "KGS", // done
   "LAK",
   "LBP",
   "LSL",
   "LRD",
   "LYD",
   "MGA",
-// ---------------------------
-  "MWK",// done
+  // ---------------------------
+  "MWK", // done
   "MYR",
   "MVR",
   "MRU",
   "MUR",
   "MXN",
   "MDL",
-// ---------------------------
-  "MAD",// done
+  // ---------------------------
+  "MAD", // done
   "MZN",
   "MMK",
   "NAD",
   "NPR",
   "NZD",
   "NIO",
-// ---------------------------
-  "NGN",// done
+  // ---------------------------
+  "NGN", // done
   "MKD",
   "NOK",
   "OMR",
   "PKR",
   "PAB",
   "PGK",
-// ---------------------------
+  // ---------------------------
   "PYG", // done
   "PEN",
   "PHP",
@@ -124,7 +123,7 @@ export const uniqueSymbols = [
   "QAR",
   "RON",
   "RWF",
-// ---------------------------
+  // ---------------------------
   "SAR", // done
   "RSD",
   "SCR",
@@ -140,8 +139,8 @@ export const uniqueSymbols = [
   "TJS",
   "TZS",
   "THB",
-// ---------------------------
-  "TOP",  // window 4 running
+  // ---------------------------
+  "TOP", // window 4 running
   "TTD",
   "TND",
   "TRY",
@@ -155,3 +154,91 @@ export const uniqueSymbols = [
   "YER",
   "ZMW",
 ];
+
+
+const cryto = [
+  "BTC",
+  "ETH",
+  "ADA",
+  "BNB",
+  "USDT",
+  "XRP",
+  "DOGE",
+  "LINK",
+  "LTC",
+  "BCH",
+  "XLM",
+  "TRX",
+  "ETC",
+  "XMR",
+  "EOS",
+  "NEO",
+  "WAVES",
+  "DASH",
+  "OMG",
+  "DCR",
+  "XEM",
+  "MANA",
+  "ICX",
+  "QTUM",
+  "ZIL",
+  "BAT",
+  "BTG",
+  "BNT",
+  "ZRX",
+  "SC",
+  "ONT",
+  "DGB",
+  "NANO",
+  "LSK",
+  "GNO",
+  "XVG",
+  "ARDR",
+  "SNT",
+  "MAID",
+  "REP",
+  "ARK",
+  "FUN",
+  "STEEM",
+  "SYS",
+  "WAN",
+  "BTS",
+  "KMD",
+  "MONA",
+  "GAS",
+  "RDD",
+  "BTM",
+  "WTC",
+  "AION",
+  "GRS",
+  "BCN",
+  "VERI",
+  "DGD",
+  "PIVX",
+  "NXS",
+  "PPT",
+  "QASH",
+  "NEBL",
+  "SALT",
+  "GAME",
+  "FCT",
+  "NXT",
+  "PAY",
+  "XDN",
+  "SUB",
+  "KNC",
+  "GNT",
+  "REQ",
+  "VGX",
+  "TNB",
+  "ZCL",
+  "HSR",
+  "ICN",
+  "POWR",
+  "ENG",
+  "SAN",
+  "ELF",
+  "STRAT",
+  "QSP",
+  "RDN",
+]
